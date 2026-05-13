@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="user.cpp" />
+    <ClCompile Include="db.cpp" />
+    <ClCompile Include="diet.cpp" />
+    <ClCompile Include="diet_plan.cpp" />
+    <ClCompile Include="constitution.cpp" />
+    <ClCompile Include="exercise.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="weather_service.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="http_server.cpp" />
+    <ClCompile Include="pool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="server.h" />
+    <ClInclude Include="http_server.h" />
+    <ClInclude Include="pool.h" />
+    <ClInclude Include="user.h" />
+    <ClInclude Include="db.h" />
+    <ClInclude Include="diet.h" />
+    <ClInclude Include="diet_plan.h" />
+    <ClInclude Include="constitution.h" />
+    <ClInclude Include="exercise.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="weather_service.h" />
+  </ItemGroup>
+</Project>

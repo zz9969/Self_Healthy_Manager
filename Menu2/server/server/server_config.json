@@ -1,0 +1,8 @@
+{
+    "seniverse_api_key": "S3yTJblBRsxrgnwEc",
+    "db_host": "localhost",
+    "db_user": "root",
+    "db_password": "zzmy",
+    "db_name": "health_management",
+    "db_port": 3306
+}
